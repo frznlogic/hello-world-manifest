@@ -7,7 +7,7 @@
 
 <project remote="yocto" revision="kirkstone" name="source/poky" path="poky"/>
 <!-- <project remote="github" revision="master" name="source/meta-helloworld" path="frznlogic/meta-helloworld"/>
-/--!>
+-->
 
 </manifest>
 
