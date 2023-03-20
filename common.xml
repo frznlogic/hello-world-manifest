@@ -6,7 +6,9 @@
 <remote fetch="ssh://git@github.com" name="github"/>
 
 <project remote="yocto" revision="kirkstone" name="poky" path="source/poky"/>
-<project remote="github" revision="main" name="frznlogic/meta-helloworld" path="source/meta-helloworld"/>
+<project remote="github" revision="main" name="frznlogic/meta-helloworld" path="source/meta-helloworld">
+    <copyfile dest="setup-environment" src="setup-environment"/>
+</project>
 
 </manifest>
 
