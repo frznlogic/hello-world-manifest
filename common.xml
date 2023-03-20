@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<default sync-j="4"/>
+
+<remote fetch="git://git.yoctoproject.org" name="yocto"/>
+<remote fetch="ssh://git@github.com" name="github"/>
+
+<project remote="yocto" revision="kirkstone" name="source/poky" path="poky"/>
+<!-- <project remote="github" revision="master" name="source/meta-helloworld" path="frznlogic/meta-helloworld"/>
+/--!>
+
+</manifest>
+
